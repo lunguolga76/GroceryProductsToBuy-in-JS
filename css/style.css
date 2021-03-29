@@ -1,0 +1,158 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+   height: 100%;
+   background-color: rgb(196, 176, 176);
+   box-sizing: border-box;
+   background-image: url("../images/market-893319_1920.jpg");
+  background-repeat: no-repeat, repeat;
+  background-color: #332525;
+  background-size: cover;
+}
+.container{
+   width: 70%;
+   margin: 20px auto;
+   padding: 20px;
+}
+
+.form{
+   width: 70%;
+   margin: 10px auto;
+   display: flex;
+   justify-content: center;
+}
+.form::after{
+   content: "";
+   clear: both;
+   display: table;
+}
+h1 {
+	color: #fff;
+	font-size: 3rem;
+	font-weight: 50;
+	text-align: center;
+	margin: 1rem 0 3rem; 
+	font-family: 'Berkshire Swash', cursive;
+}
+h1:hover{
+   color: #bb0000;
+   transition: 0.5;
+}
+.form input, .form button{
+   padding: 0.5rem 1rem;
+   outline: none;
+   border: none;
+   height: 50px;
+   border-radius: 25px;
+   width: 350px;
+   margin: 0.25rem;
+   font-family: 'Dancing Script', cursive;
+   transition: .5s;
+   font-size: 1.15rem;
+}
+.form input{
+   width: 50%;
+ 
+}
+.form button{
+   outline: none;
+    border: none;
+    height: 50px;
+    border-radius: 25px;
+    width: 50px;
+    background-color: lime;
+    color: white;
+    cursor: pointer;
+    transition: .5s;
+    margin: 0.25rem;;
+   
+}
+
+#printGroceryList{
+   width: 70%;
+   margin: 20px auto;
+   list-style-type: none;
+   font-family: 'Dancing Script', cursive;
+   position: relative;
+  
+}
+
+#printGroceryList li{
+   display: flex;
+   justify-content: flex-start;
+   align-content: flex-start;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   padding: 20px;
+   text-align: start;
+   box-shadow: 0 8px 10px 1px #8b8b8b;
+   font-size: 30px;
+   font-family: 'Dancing Script', cursive;
+   border-radius: 20px;
+   background-color: white;
+  
+}
+#printGroceryList li:hover{
+   color: #bb0000;
+}
+
+#printGroceryList li a{
+   
+   width: 40px;
+   height: 40px;
+   display: block;
+   text-align: center;
+   margin:5px;
+   border-radius: 50%;
+   padding: 3px;
+   box-sizing: border-box;
+   text-decoration: none;
+   box-shadow: 0 10px 15px rgba(0,0,0,0.3);
+   background: linear-gradient(0deg, #ddd, #fff);
+   transition: 0.5s;
+}
+
+#printGroceryList li a .fas
+{
+    width: 90%;
+    height:90%;
+    display: block;
+    background: linear-gradient(0deg,  #fff, #ddd);
+    border-radius: 50%;
+    line-height: calc(40px - 7px);
+    font-size: 20px;
+    color: #262626;
+    transition: 0.5s;
+
+}
+#printGroceryList li:nth-child(1) a:hover .fas{
+    color:#bb0000;
+
+}
+#printGroceryList li:nth-child(2) a:hover .fas{
+   color:#bb0000;
+
+}
+#printGroceryList li:nth-child(3) a:hover .fas{
+   color:#bb0000;
+
+}
+#printGroceryList li:nth-child(4) a:hover .fas{
+   color:#bb0000;
+
+}
+#printGroceryList li:nth-child(5) a:hover .fas{
+   color:#bb0000;
+
+}
+
+
+
+  
+
+
+
